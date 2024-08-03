@@ -1,0 +1,67 @@
+1Code_Samples - Ewan
+
+
+			Code
+
+showmessage('*mesage*');
+*name*.Brush.Color := *collor*;				kleur verander
+*name*.Name := '*font*';				font verander
+*name*.Caption := '*caption*' ;				caption verander   		#as string , s*naam*[*hoeveelste karakters*] ;		#sonder ''
+*integer name* := StrToInt(*object*.Text) ;		object text to integer
+*image name*.Stretch := *true/false*;			resize prent of nie
+~~~ := random(*x(enige getaL) *) ;			insert rand. getal van 1 tot x
+sleep(*milisecondes*) ;					wag vir sekere tyd 		#1000 mili = 1 sec
+repaint;
+*edt.Naam*.clear;					delete woorde in edit 
+sqr*nommer*						nomer tot die mag 2
+*Objt naam*.Lines.Add(**);				'add' n 'line'
+inputbox('*box titel*','*vraag*','*defoalt awnser*')	pop up box
+MOD							~die res wat oor bly
+DIV 							~aantal keer
+#13  							~skuif na nuwe lyn	 
+#9							~Tab
+*rich edit*.Paragraph.Tab[*nr van tab*]:=*pixel amount*	~set size to tab from laft margin
+*rich edit*.lines.Add(datetostr(date))			~sit datum in
+*int* :=random(*X*)					~random getal vanaf 0 tot X
+*int* := randomrange (*X*,*Y*)				~randomgetal x tot y		#Y = Y-1
+
+
+
+
+			IF STATMENTS
+
+if __ then						~as ___ waar is doen die volgende
+end;
+
+for _k_ := ___ to ___ do				~
+
+repeat							~doen die volgende todat ___ waar is
+until (___);
+
+else							~(gebruik na n if statment) as die voorige statment false is, doen die volgende
+
+case _var_ of						~waar _var_:_case_ dan voer _action_ uit
+_case_ : _action_
+ 
+
+
+			woord 
+
+NOT 							~ is die volgende stellng onwaar?
+(_int_ IN_X_])  					~int gelyk aan X
+_X_ .. _Y_						~tussen of gelyk aan X en Y
+
+
+
+
+
+			Afkortings
+
+ta = text alinment
+cl = collor
+fs = font style
+ns = numbering style
+
+
+
+			~Ewan se code
